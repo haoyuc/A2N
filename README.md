@@ -12,7 +12,7 @@ Visual results in the paper are availble at [Google Drive](https://drive.google.
 ```
 python main.py  --scale 4 --pre_train ./experiment/model/aan_x4.pt --chop --test_only
 ```
-
+If you use CPU, please add "--cpu".
 
 
 ## Tran 
