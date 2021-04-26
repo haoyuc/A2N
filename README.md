@@ -10,7 +10,11 @@ This repository is an PyTorch implementation of the paper
 
 Visual results in the paper are availble at [Google Drive](https://drive.google.com/file/d/1SCO2t3HeNsyofREmflsDjF1AKOHBAaRQ/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1iIw9dzeKZTvgIxSEL8K3Qw) (password: 7t74). 
 
+
 ## Test
+
+**Dependecies**: torch==0.4.1
+
 
 You can download the test sets from [Google Drive](https://drive.google.com/file/d/1uG_YFV5BEA3Eob2CFnFWc0OSw4HycyU9/view?usp=sharing). Put the test data in `../Data/benchmark/`.
 
