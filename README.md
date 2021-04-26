@@ -9,8 +9,10 @@ Visual results in the paper are availble at [Google Drive](https://drive.google.
 
 ## Test
 
+You can download the test sets from [Google Drive](https://drive.google.com/file/d/1uG_YFV5BEA3Eob2CFnFWc0OSw4HycyU9/view?usp=sharing).
+
 ```
-python main.py  --scale 4 --pre_train ./experiment/model/aan_x4.pt --chop --test_only
+python main.py  --scale 4 --data_test Set5 --pre_train ./experiment/model/aan_x4.pt --chop --test_only
 ```
 If you use CPU, please add "--cpu".
 

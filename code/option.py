@@ -141,7 +141,7 @@ parser.add_argument('--n_resgroups', type=int, default=10,
 parser.add_argument('--reduction', type=int, default=16,
                     help='number of feature maps reduction')
 # options for test
-parser.add_argument('--testpath', type=str, default='../test/DIV2K_val_LR_our',
+parser.add_argument('--testpath', type=str, default='../Data',
                     help='dataset directory for testing')
 parser.add_argument('--testset', type=str, default='Set5',
                     help='dataset name for testing')
