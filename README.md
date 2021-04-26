@@ -17,7 +17,18 @@ If you use CPU, please add "--cpu".
 
 ## Tran 
 
-**Coming soon**
+### Training data preparation 
+
+  1. Download DIV2K training data from [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) or [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/DIV2K.tar).
+  2. Specify `'--dir_data'` in option.py based on the data path. 
+
+For more informaiton, please refer to [EDSR(PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch).
+
+### Training
+
+```
+python main.py --scale 4 
+```
 
 
 
