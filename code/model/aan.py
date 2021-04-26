@@ -8,11 +8,13 @@ from model import common
 def make_model(args, parent=False):
     return AAN(args)
 
+
 def make_layer(block, n_layers):
     layers = []
     for _ in range(n_layers):
         layers.append(block())
     return nn.Sequential(*layers)
+
 
 class PA(nn.Module):
     '''PA is pixel attention'''
@@ -29,6 +31,7 @@ class PA(nn.Module):
         out = torch.mul(x, y)
 
         return out
+
 
 # Attention Branch
 class AttentionBranch(nn.Module):
@@ -55,6 +58,7 @@ class AttentionBranch(nn.Module):
         out = self.k4(out)
 
         return out
+
 
 class AAB(nn.Module):
 
