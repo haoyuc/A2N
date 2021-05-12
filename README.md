@@ -24,7 +24,7 @@ python main.py  --scale 4 --data_test Set5 --pre_train ./experiment/model/aan_x4
 If you use CPU, please add "--cpu".
 
 
-## Tran 
+## Train 
 
 ### Training data preparation 
 
