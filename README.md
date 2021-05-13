@@ -1,7 +1,6 @@
 Under construction...
 
-
-# A2N
+# Attention in Attention Network for Image Super-Resolution (A2N)
 
 This repository is an PyTorch implementation of the paper
 
@@ -10,6 +9,7 @@ This repository is an PyTorch implementation of the paper
 
 Visual results in the paper are availble at [Google Drive](https://drive.google.com/file/d/1SCO2t3HeNsyofREmflsDjF1AKOHBAaRQ/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1iIw9dzeKZTvgIxSEL8K3Qw) (password: 7t74). 
 
+Unofficial TensorFlow implementation: https://github.com/Anuj040/superres
 
 ## Test
 
