@@ -36,11 +36,11 @@ For more informaiton, please refer to [EDSR(PyTorch)](https://github.com/thstkd
 ### Training
 
 ```
-python main.py --scale 2 --patch_size 128 --reset --chop
+python main.py --scale 2 --patch_size 128 --reset --chop --batch_size 32
 
-python main.py --scale 3 --patch_size 192 --reset --chop
+python main.py --scale 3 --patch_size 192 --reset --chop --batch_size 32
 
-python main.py --scale 4 --patch_size 256 --reset --chop
+python main.py --scale 4 --patch_size 256 --reset --chop --batch_size 32
 ```
 
 
