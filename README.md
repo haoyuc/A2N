@@ -13,7 +13,7 @@ Unofficial TensorFlow implementation: https://github.com/Anuj040/superres
 
 ## Test
 
-**Dependecies**: torch==0.4.1
+**Dependecies**: PyTorch==0.4.1 (Will be updated to support PyTorch>1.0 in the future)
 
 
 You can download the test sets from [Google Drive](https://drive.google.com/file/d/1uG_YFV5BEA3Eob2CFnFWc0OSw4HycyU9/view?usp=sharing). Put the test data in `../Data/benchmark/`.
