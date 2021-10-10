@@ -55,10 +55,10 @@ For A2N-M, use 1x1 conv instead of 3x3 conv in non-attention branch, the code is
 
 ### Enhanced and suppressed attention
 Left: The most enhanced attention maps. Right: The most suppressed  attention  maps.
-![](/imgs/visual_attention.pdf)
+![](/Figs/visual_attention.jpg)
 
 ### Visual results
-![](/imgs/visual_results.pdf)
+![](/Figs/visual_results.jpg)
 
 ## Citation
 
