@@ -81,10 +81,11 @@ class AAB(nn.Module):
         
         # attention branch
         self.attention = AttentionBranch(nf)  
+        
         # non-attention branch
         # 3x3 conv for A2N
-        self.non_attention = nn.Conv2d(nf, nf, kernel_size=3, padding=(3 - 1) // 2, bias=False) 
-        # 1x1 conv for A2N-M
+        self.non_attention = nn.Conv2d(nf, nf, kernel_size=3, padding=(3 - 1) // 2, bias=False)         
+        # 1x1 conv for A2N-M (Recommended, less parameters)
         # self.non_attention = nn.Conv2d(nf, nf, kernel_size=1, bias=False) 
 
     def forward(self, x):
