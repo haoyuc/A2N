@@ -51,6 +51,15 @@ python main.py --scale 4 --patch_size 256 --reset --chop --batch_size 32  --lr 5
 For A2N-M, use 1x1 conv instead of 3x3 conv in non-attention branch, the code is [here](https://github.com/haoyuc/A2N/blob/ce82e2b0a1fac6f508b4419ad496cf324395e0e5/code/model/aan.py#L89)
 
 
+## Experiments
+
+### Enhanced and suppressed attention
+Left: The most enhanced attention maps. Right: The most suppressed  attention  maps.
+![](./imgs/visual_attention.pdf)
+
+### Visual results
+![](./imgs/visual_results.pdf)
+
 ## Citation
 
 If you have any question or suggestion, welcome to email me [at here](mailto:haoyuchen@link.cuhk.edu.cn).
