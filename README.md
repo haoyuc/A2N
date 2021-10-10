@@ -47,7 +47,8 @@ python main.py --scale 3 --patch_size 192 --reset --chop --batch_size 32  --lr 5
 python main.py --scale 4 --patch_size 256 --reset --chop --batch_size 32  --lr 5e-4
 ```
 
-
+#### A2N-M (Recommended, fewer parameters)
+For A2N-M, use 1x1 conv instead of 3x3 conv in non-attention branch, the code is [here](https://github.com/haoyuc/A2N/blob/ce82e2b0a1fac6f508b4419ad496cf324395e0e5/code/model/aan.py#L89)
 
 
 ## Citation
